@@ -1,0 +1,91 @@
+.navbar{
+    background: rgb(30,30,30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto ;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    color: blue;
+    border-radius: 3rem;
+}
+
+.DeskTopItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+.DeskTopItem:hover{
+    color:rgb(54, 134, 226);
+    padding-bottom:0.5rem ;
+    border-bottom:3px solid rgb(54, 134, 226) ;
+}
+.deskTopMenuBtn{
+    background-color:rgb(54, 134, 226) ;
+    border: none;
+    color:white;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.deskTopImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+
+}
+.active{
+    color: rgb(54, 134, 226);
+    padding-bottom:0.5rem ;
+    border-bottom:3px solid rgb(54, 134, 226) ;
+}
+.menu{
+    display: none;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+.deskMenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    padding: 0.8rem;
+    height: fit-content;
+    min-width: 8rem;
+    background: rgb(30,30,30);
+    border-radius: 1rem;
+    border: none;
+}
+.DeskItem:hover{
+    color:rgb(54, 134, 226);
+    padding-bottom:0.5rem ;
+    border-bottom:3px solid rgb(54, 134, 226) ;
+}
+.deskItem{
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+     background: rgb(40,40,40);
+}
+@media screen and (max-width:720px) {
+    .menu{display:flex;
+    }
+    .deskTopMenu, .deskTopMenuBtn{
+        display: none;
+    }
+}

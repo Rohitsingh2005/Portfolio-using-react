@@ -1,0 +1,46 @@
+#social {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+
+  margin: 0 auto;
+}
+h2 {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.des {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 200;
+}
+.site {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+  padding-left: 28vw;
+}
+.img {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem;
+}
+@media screen and (max-width: 450px) {
+  .site {
+    object-fit: cover;
+    padding-left: 15vw;
+  }
+  .img {
+    height: 2rem;
+    width: 2rem;
+  }
+}

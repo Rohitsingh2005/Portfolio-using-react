@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 0.5rem;
+    background: rgb(40,40,40);
+    padding: 1rem;
+}
+.copy{
+    font-weight: bolder;
+}

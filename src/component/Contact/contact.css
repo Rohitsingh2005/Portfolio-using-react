@@ -1,0 +1,58 @@
+.contact{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     max-width: 60rem;
+     margin: 1rem;
+     margin-left: 9rem;
+}
+.email, .msg{
+    font-size:medium ;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 1rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+    
+}
+.yourName{
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 1rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+.submitBtn{
+    background: rgb(54, 134, 226);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    width: 18vw;
+    border: none;
+    margin-top: 0.5rem;
+}
+@media screen and (max-width:800px){
+    .form{
+        margin-left: 1rem;
+    }
+}
